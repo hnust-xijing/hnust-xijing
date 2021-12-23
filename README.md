@@ -1,30 +1,4 @@
- <div class=" container navbar-content">
-        <a href="https://blog.csdn.net/qq_44969643">周扒皮</a>
-        <a href="https://gitee.com/xi_jing">
-         <div id="timer"></div>
-            <script type="text/javascript">
-                function current() {
-                    var d = new Date(),
-                        str = '';
-                   // str += d.getFullYear() + '年'; //获取当前年份
-                    str += d.getMonth() + 1 ; //获取当前月份（0——11）
-                    str += d.getDate() ;
-                    //str += d.getHours() + '时';
-                   // str += d.getMinutes() + '分';
-                   // str += d.getSeconds() + '秒';
-                    return str;
-                }
-                window.onload = function() {
-                    var timer = document.getElementById("timer");
-                    timer.innerHTML = current();
-                }
-            </script>
-        </a>
-        <a href="https://github.com/hnust-xijing">快乐</a>
-        <a href="https://github.com/hnust-xijing">爽宝的祝福</a>
-
-    </div>
-
+ 
 
 
 
